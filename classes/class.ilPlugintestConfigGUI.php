@@ -69,7 +69,10 @@ class ilPlugintestConfigGUI extends ilPluginConfigGUI
      */
     protected function configure() : void
     {
-        self::dic()->ctrl()->redirectByClass(ConfigCtrl::class, ConfigCtrl::CMD_CONFIGURE);
+        global $tpl;
+
+		$form = $this->initConfigurationForm();
+		$tpl->setContent($form->getHTML());
     }
 
 
@@ -82,4 +85,28 @@ class ilPlugintestConfigGUI extends ilPluginConfigGUI
 
         self::dic()->locator()->addItem(ilPlugintestPlugin::PLUGIN_NAME, self::dic()->ctrl()->getLinkTarget($this, self::CMD_CONFIGURE));
     }
+
+    public function save()
+	{
+		global $tpl, $lng, $ilCtrl;
+	
+		$pl = $this->getPluginObject();
+		
+		$form = $this->initConfigurationForm();
+		if ($form->checkInput())
+		{
+			$set1 = $form->getInput("setting_1");
+			$set2 = $form->getInput("setting_2");
+	
+			// @todo: implement saving to db
+			
+			ilUtil::sendSuccess($pl->txt("saving_invoked"), true);
+			$ilCtrl->redirect($this, "configure");
+		}
+		else
+		{
+			$form->setValuesByPost();
+			$tpl->setContent($form->getHtml());
+		}
+	}
 }
