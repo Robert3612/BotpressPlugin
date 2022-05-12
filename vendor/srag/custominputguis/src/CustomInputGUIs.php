@@ -1,14 +1,14 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test;
+namespace srag\CustomInputGUIs\Plugintest;
 
-use srag\CustomInputGUIs\Test\ViewControlModeUI\ViewControlModeUI;
-use srag\DIC\Test\DICTrait;
+use srag\CustomInputGUIs\Plugintest\ViewControlModeUI\ViewControlModeUI;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class CustomInputGUIs
  *
- * @package srag\CustomInputGUIs\Test
+ * @package srag\CustomInputGUIs\Plugintest
  */
 final class CustomInputGUIs
 {

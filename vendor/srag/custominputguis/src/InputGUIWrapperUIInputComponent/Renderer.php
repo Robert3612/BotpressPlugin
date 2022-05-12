@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\InputGUIWrapperUIInputComponent;
+namespace srag\CustomInputGUIs\Plugintest\InputGUIWrapperUIInputComponent;
 
 use ilHiddenInputGUI;
 use ILIAS\UI\Component\Component;
@@ -11,7 +11,7 @@ use ILIAS\UI\Renderer as RendererInterface;
 /**
  * Class Renderer
  *
- * @package srag\CustomInputGUIs\Test\InputGUIWrapperUIInputComponent
+ * @package srag\CustomInputGUIs\Plugintest\InputGUIWrapperUIInputComponent
  */
 class Renderer extends AbstractRenderer
 {

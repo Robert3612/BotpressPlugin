@@ -1,17 +1,17 @@
 <?php
 
-namespace srag\DIC\Test;
+namespace srag\DIC\Plugintest;
 
-use srag\DIC\Test\DIC\DICInterface;
-use srag\DIC\Test\Exception\DICException;
-use srag\DIC\Test\Output\OutputInterface;
-use srag\DIC\Test\Plugin\PluginInterface;
-use srag\DIC\Test\Version\VersionInterface;
+use srag\DIC\Plugintest\DIC\DICInterface;
+use srag\DIC\Plugintest\Exception\DICException;
+use srag\DIC\Plugintest\Output\OutputInterface;
+use srag\DIC\Plugintest\Plugin\PluginInterface;
+use srag\DIC\Plugintest\Version\VersionInterface;
 
 /**
  * Interface DICStaticInterface
  *
- * @package srag\DIC\Test
+ * @package srag\DIC\Plugintest
  */
 interface DICStaticInterface
 {

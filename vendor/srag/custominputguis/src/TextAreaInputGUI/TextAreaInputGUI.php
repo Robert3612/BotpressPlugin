@@ -1,15 +1,15 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\TextAreaInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\TextAreaInputGUI;
 
 use ilTextAreaInputGUI;
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\DIC\Test\DICTrait;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class TextAreaInputGUI
  *
- * @package srag\CustomInputGUIs\Test\TextAreaInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\TextAreaInputGUI
  */
 class TextAreaInputGUI extends ilTextAreaInputGUI
 {

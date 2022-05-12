@@ -1,16 +1,16 @@
 <?php
 
-namespace srag\DIC\Test\Plugin;
+namespace srag\DIC\Plugintest\Plugin;
 
 use ilPlugin;
 use ilTemplateException;
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\DIC\Test\Exception\DICException;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\DIC\Plugintest\Exception\DICException;
 
 /**
  * Interface PluginInterface
  *
- * @package srag\DIC\Test\Plugin
+ * @package srag\DIC\Plugintest\Plugin
  */
 interface PluginInterface
 {

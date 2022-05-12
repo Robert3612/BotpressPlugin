@@ -36,7 +36,7 @@
   },
   "autoload": {
     "psr-4": {
-      "srag\\RemovePluginDataConfirm\\Test\\": "src/"
+      "srag\\RemovePluginDataConfirm\\Plugintest\\": "src/"
     },
     "classmap": [
       "src/class.RemovePluginDataConfirmCtrl.php"

@@ -34,7 +34,7 @@
   },
   "autoload": {
     "psr-4": {
-      "srag\\LibraryLanguageInstaller\\Test\\": "src/"
+      "srag\\LibraryLanguageInstaller\\Plugintest\\": "src/"
     }
   },
   "config": {

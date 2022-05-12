@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\DIC\Test\Database;
+namespace srag\DIC\Plugintest\Database;
 
 use ilDBPdoInterface;
 use ilDBStatement;
@@ -8,7 +8,7 @@ use ilDBStatement;
 /**
  * Interface DatabaseInterface
  *
- * @package srag\DIC\Test\Database
+ * @package srag\DIC\Plugintest\Database
  */
 interface DatabaseInterface extends ilDBPdoInterface
 {

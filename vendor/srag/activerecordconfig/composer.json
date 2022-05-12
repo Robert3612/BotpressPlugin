@@ -34,7 +34,7 @@
   },
   "autoload": {
     "psr-4": {
-      "srag\\ActiveRecordConfig\\Test\\": "src/"
+      "srag\\ActiveRecordConfig\\Plugintest\\": "src/"
     }
   },
   "config": {

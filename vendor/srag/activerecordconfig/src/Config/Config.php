@@ -1,16 +1,16 @@
 <?php
 
-namespace srag\ActiveRecordConfig\Test\Config;
+namespace srag\ActiveRecordConfig\Plugintest\Config;
 
 use ActiveRecord;
 use arConnector;
 use LogicException;
-use srag\DIC\Test\DICTrait;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class Config
  *
- * @package srag\ActiveRecordConfig\Test\Config
+ * @package srag\ActiveRecordConfig\Plugintest\Config
  */
 class Config extends ActiveRecord
 {

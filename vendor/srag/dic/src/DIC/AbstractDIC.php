@@ -1,15 +1,15 @@
 <?php
 
-namespace srag\DIC\Test\DIC;
+namespace srag\DIC\Plugintest\DIC;
 
 use ILIAS\DI\Container;
-use srag\DIC\Test\Database\DatabaseDetector;
-use srag\DIC\Test\Database\DatabaseInterface;
+use srag\DIC\Plugintest\Database\DatabaseDetector;
+use srag\DIC\Plugintest\Database\DatabaseInterface;
 
 /**
  * Class AbstractDIC
  *
- * @package srag\DIC\Test\DIC
+ * @package srag\DIC\Plugintest\DIC
  */
 abstract class AbstractDIC implements DICInterface
 {

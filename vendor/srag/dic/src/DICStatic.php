@@ -1,24 +1,24 @@
 <?php
 
-namespace srag\DIC\Test;
+namespace srag\DIC\Plugintest;
 
 use ilLogLevel;
 use ilPlugin;
-use srag\DIC\Test\DIC\DICInterface;
-use srag\DIC\Test\DIC\Implementation\ILIAS60DIC;
-use srag\DIC\Test\DIC\Implementation\ILIAS70DIC;
-use srag\DIC\Test\Exception\DICException;
-use srag\DIC\Test\Output\Output;
-use srag\DIC\Test\Output\OutputInterface;
-use srag\DIC\Test\Plugin\Plugin;
-use srag\DIC\Test\Plugin\PluginInterface;
-use srag\DIC\Test\Version\Version;
-use srag\DIC\Test\Version\VersionInterface;
+use srag\DIC\Plugintest\DIC\DICInterface;
+use srag\DIC\Plugintest\DIC\Implementation\ILIAS60DIC;
+use srag\DIC\Plugintest\DIC\Implementation\ILIAS70DIC;
+use srag\DIC\Plugintest\Exception\DICException;
+use srag\DIC\Plugintest\Output\Output;
+use srag\DIC\Plugintest\Output\OutputInterface;
+use srag\DIC\Plugintest\Plugin\Plugin;
+use srag\DIC\Plugintest\Plugin\PluginInterface;
+use srag\DIC\Plugintest\Version\Version;
+use srag\DIC\Plugintest\Version\VersionInterface;
 
 /**
  * Class DICStatic
  *
- * @package srag\DIC\Test
+ * @package srag\DIC\Plugintest
  */
 final class DICStatic implements DICStaticInterface
 {

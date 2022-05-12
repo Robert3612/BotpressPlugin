@@ -6,12 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'srag\\RemovePluginDataConfirm\\Test\\' => array($vendorDir . '/srag/removeplugindataconfirm/src'),
-    'srag\\Plugins\\Test\\' => array($baseDir . '/src'),
-    'srag\\LibraryLanguageInstaller\\Test\\' => array($vendorDir . '/srag/librarylanguageinstaller/src'),
+    'srag\\RemovePluginDataConfirm\\Plugintest\\' => array($vendorDir . '/srag/removeplugindataconfirm/src'),
+    'srag\\Plugins\\Plugintest\\' => array($baseDir . '/src'),
+    'srag\\LibraryLanguageInstaller\\Plugintest\\' => array($vendorDir . '/srag/librarylanguageinstaller/src'),
     'srag\\LibrariesNamespaceChanger\\' => array($vendorDir . '/srag/librariesnamespacechanger/src'),
-    'srag\\DevTools\\Test\\' => array($vendorDir . '/srag/devtools/src'),
-    'srag\\DIC\\Test\\' => array($vendorDir . '/srag/dic/src'),
-    'srag\\CustomInputGUIs\\Test\\' => array($vendorDir . '/srag/custominputguis/src'),
-    'srag\\ActiveRecordConfig\\Test\\' => array($vendorDir . '/srag/activerecordconfig/src'),
+    'srag\\DIC\\Plugintest\\' => array($vendorDir . '/srag/dic/src'),
+    'srag\\CustomInputGUIs\\Plugintest\\' => array($vendorDir . '/srag/custominputguis/src'),
+    'srag\\ActiveRecordConfig\\Plugintest\\' => array($vendorDir . '/srag/activerecordconfig/src'),
 );

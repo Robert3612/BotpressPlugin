@@ -1,16 +1,16 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\NumberInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\NumberInputGUI;
 
 use ilNumberInputGUI;
 use ilTableFilterItem;
 use ilToolbarItem;
-use srag\DIC\Test\DICTrait;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class NumberInputGUI
  *
- * @package srag\CustomInputGUIs\Test\NumberInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\NumberInputGUI
  */
 class NumberInputGUI extends ilNumberInputGUI implements ilTableFilterItem, ilToolbarItem
 {

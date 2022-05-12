@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "srag\\DIC\\Test\\": "src/"
+      "srag\\DIC\\Plugintest\\": "src/"
     }
   },
   "config": {

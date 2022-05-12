@@ -1,15 +1,15 @@
 <?php
 
-namespace srag\RemovePluginDataConfirm\Test;
+namespace srag\RemovePluginDataConfirm\Plugintest;
 
 use ilUIPluginRouterGUI;
-use srag\DIC\Test\DICTrait;
-use srag\LibraryLanguageInstaller\Test\LibraryLanguageInstaller;
+use srag\DIC\Plugintest\DICTrait;
+use srag\LibraryLanguageInstaller\Plugintest\LibraryLanguageInstaller;
 
 /**
  * Trait BasePluginUninstallTrait
  *
- * @package srag\RemovePluginDataConfirm\Test
+ * @package srag\RemovePluginDataConfirm\Plugintest
  *
  * @access  namespace
  */

@@ -1,16 +1,16 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\InputGUIWrapperUIInputComponent;
+namespace srag\CustomInputGUIs\Plugintest\InputGUIWrapperUIInputComponent;
 
 use ILIAS\UI\Implementation\Component\Input\Field\Renderer;
 use ILIAS\UI\Implementation\Render\ResourceRegistry;
 use ILIAS\UI\Implementation\Render\Template;
-use srag\DIC\Test\DICTrait;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class AbstractRenderer
  *
- * @package srag\CustomInputGUIs\Test\InputGUIWrapperUIInputComponent
+ * @package srag\CustomInputGUIs\Plugintest\InputGUIWrapperUIInputComponent
  */
 abstract class AbstractRenderer extends Renderer
 {

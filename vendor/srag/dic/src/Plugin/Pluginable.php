@@ -1,11 +1,11 @@
 <?php
 
-namespace srag\DIC\Test\Plugin;
+namespace srag\DIC\Plugintest\Plugin;
 
 /**
  * Interface Pluginable
  *
- * @package srag\DIC\Test\Plugin
+ * @package srag\DIC\Plugintest\Plugin
  */
 interface Pluginable
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace srag\ActiveRecordConfig\Test\Config;
+namespace srag\ActiveRecordConfig\Plugintest\Config;
 
 use ilDateTime;
 use ilDateTimeException;
 use LogicException;
-use srag\DIC\Test\DICTrait;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class AbstractRepository
  *
- * @package srag\ActiveRecordConfig\Test\Config
+ * @package srag\ActiveRecordConfig\Plugintest\Config
  */
 abstract class AbstractRepository
 {

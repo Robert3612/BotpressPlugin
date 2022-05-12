@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\Loader;
+namespace srag\CustomInputGUIs\Plugintest\Loader;
 
 use Closure;
 use ILIAS\UI\Component\Component;
@@ -9,14 +9,14 @@ use ILIAS\UI\Implementation\Render\ComponentRenderer;
 use ILIAS\UI\Implementation\Render\Loader;
 use ILIAS\UI\Renderer;
 use Pimple\Container;
-use srag\CustomInputGUIs\Test\InputGUIWrapperUIInputComponent\InputGUIWrapperUIInputComponent;
-use srag\CustomInputGUIs\Test\InputGUIWrapperUIInputComponent\Renderer as InputGUIWrapperUIInputComponentRenderer;
-use srag\DIC\Test\Loader\AbstractLoaderDetector;
+use srag\CustomInputGUIs\Plugintest\InputGUIWrapperUIInputComponent\InputGUIWrapperUIInputComponent;
+use srag\CustomInputGUIs\Plugintest\InputGUIWrapperUIInputComponent\Renderer as InputGUIWrapperUIInputComponentRenderer;
+use srag\DIC\Plugintest\Loader\AbstractLoaderDetector;
 
 /**
  * Class CustomInputGUIsLoaderDetector
  *
- * @package srag\CustomInputGUIs\Test\Loader
+ * @package srag\CustomInputGUIs\Plugintest\Loader
  */
 class CustomInputGUIsLoaderDetector extends AbstractLoaderDetector
 {

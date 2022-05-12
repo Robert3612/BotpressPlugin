@@ -1,23 +1,23 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\TableGUI;
+namespace srag\CustomInputGUIs\Plugintest\TableGUI;
 
 use ilCSVWriter;
 use ilExcel;
 use ilFormPropertyGUI;
 use ilHtmlToPdfTransformerFactory;
 use ilTable2GUI;
-use srag\CustomInputGUIs\Test\MultiLineNewInputGUI\MultiLineNewInputGUI;
-use srag\CustomInputGUIs\Test\PropertyFormGUI\Items\Items;
-use srag\CustomInputGUIs\Test\PropertyFormGUI\PropertyFormGUI;
-use srag\CustomInputGUIs\Test\TableGUI\Exception\TableGUIException;
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\DIC\Test\DICTrait;
+use srag\CustomInputGUIs\Plugintest\MultiLineNewInputGUI\MultiLineNewInputGUI;
+use srag\CustomInputGUIs\Plugintest\PropertyFormGUI\Items\Items;
+use srag\CustomInputGUIs\Plugintest\PropertyFormGUI\PropertyFormGUI;
+use srag\CustomInputGUIs\Plugintest\TableGUI\Exception\TableGUIException;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class TableGUI
  *
- * @package    srag\CustomInputGUIs\Test\TableGUI
+ * @package    srag\CustomInputGUIs\Plugintest\TableGUI
  *
  * @deprecated Please use "srag/datatable" library (`AbstractTableBuilder`)
  */

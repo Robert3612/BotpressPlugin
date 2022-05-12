@@ -1,26 +1,27 @@
 <?php
 
-namespace srag\Plugins\Test\Config\Form;
+namespace srag\Plugins\Plugintest\Config\Form;
 
-use srag\Plugins\Test\Config\ConfigCtrl;
-use srag\Plugins\Test\Utils\TestTrait;
-use ilTestPlugin;
-use srag\CustomInputGUIs\Test\FormBuilder\AbstractFormBuilder;
+use srag\Plugins\Plugintest\Config\ConfigCtrl;
+use srag\Plugins\Plugintest\Utils\PlugintestTrait;
+use ilPlugintestPlugin;
+use srag\CustomInputGUIs\Plugintest\FormBuilder\AbstractFormBuilder;
 
 /**
  * Class FormBuilder
  *
- * @package srag\Plugins\Test\Config\Form
+ * @package srag\Plugins\Plugintest\Config\Form
  *
- * @author studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
+ * @author Robert Schmidt <support@fluxlabs.ch>
+ * @author fluxlabs <support@fluxlabs.ch>
  */
 class FormBuilder extends AbstractFormBuilder
 {
 
-    use TestTrait;
+    use PlugintestTrait;
 
     const KEY_SOME = "some";
-    const PLUGIN_CLASS_NAME = ilTestPlugin::class;
+    const PLUGIN_CLASS_NAME = ilPlugintestPlugin::class;
 
 
     /**
@@ -53,7 +54,7 @@ class FormBuilder extends AbstractFormBuilder
     protected function getData() : array
     {
         $data = [
-            self::KEY_SOME => self::test()->config()->getValue(self::KEY_SOME)
+            self::KEY_SOME => self::plugintest()->config()->getValue(self::KEY_SOME)
         ];
 
         return $data;
@@ -87,6 +88,6 @@ class FormBuilder extends AbstractFormBuilder
      */
     protected function storeData(array $data) : void
     {
-        self::test()->config()->setValue(self::KEY_SOME, strval($data[self::KEY_SOME]));
+        self::plugintest()->config()->setValue(self::KEY_SOME, strval($data[self::KEY_SOME]));
     }
 }

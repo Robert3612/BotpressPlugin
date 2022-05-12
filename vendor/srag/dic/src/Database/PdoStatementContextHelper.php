@@ -1,16 +1,16 @@
 <?php
 
-namespace srag\DIC\Test\Database;
+namespace srag\DIC\Plugintest\Database;
 
 use ilDBStatement;
 use ilPDOStatement;
 use PDOStatement;
-use srag\DIC\Test\Exception\DICException;
+use srag\DIC\Plugintest\Exception\DICException;
 
 /**
  * Class PdoStatementContextHelper
  *
- * @package srag\DIC\Test\Database
+ * @package srag\DIC\Plugintest\Database
  *
  * @internal
  */

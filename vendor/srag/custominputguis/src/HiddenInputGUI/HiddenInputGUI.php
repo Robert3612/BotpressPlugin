@@ -1,15 +1,15 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\HiddenInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\HiddenInputGUI;
 
 use ilHiddenInputGUI;
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\DIC\Test\DICTrait;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class HiddenInputGUI
  *
- * @package srag\CustomInputGUIs\Test\HiddenInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\HiddenInputGUI
  */
 class HiddenInputGUI extends ilHiddenInputGUI
 {

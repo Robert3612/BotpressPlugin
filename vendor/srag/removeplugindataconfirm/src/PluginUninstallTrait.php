@@ -1,11 +1,11 @@
 <?php
 
-namespace srag\RemovePluginDataConfirm\Test;
+namespace srag\RemovePluginDataConfirm\Plugintest;
 
 /**
  * Trait PluginUninstallTrait
  *
- * @package srag\RemovePluginDataConfirm\Test
+ * @package srag\RemovePluginDataConfirm\Plugintest
  */
 trait PluginUninstallTrait
 {

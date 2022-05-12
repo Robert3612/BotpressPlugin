@@ -1,17 +1,17 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\TextInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\TextInputGUI;
 
 use iljQueryUtil;
 use ilUtil;
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\DIC\Test\Plugin\PluginInterface;
-use srag\DIC\Test\Version\PluginVersionParameter;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\DIC\Plugintest\Plugin\PluginInterface;
+use srag\DIC\Plugintest\Version\PluginVersionParameter;
 
 /**
  * Class TextInputGUIWithModernAutoComplete
  *
- * @package srag\CustomInputGUIs\Test\TextInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\TextInputGUI
  */
 class TextInputGUIWithModernAutoComplete extends TextInputGUI
 {

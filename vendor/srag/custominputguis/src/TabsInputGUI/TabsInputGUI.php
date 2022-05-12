@@ -1,21 +1,21 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\TabsInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\TabsInputGUI;
 
 use ilFormPropertyGUI;
 use ilTableFilterItem;
 use ilTemplate;
 use ilToolbarItem;
-use srag\CustomInputGUIs\Test\PropertyFormGUI\Items\Items;
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\DIC\Test\DICTrait;
-use srag\DIC\Test\Plugin\PluginInterface;
-use srag\DIC\Test\Version\PluginVersionParameter;
+use srag\CustomInputGUIs\Plugintest\PropertyFormGUI\Items\Items;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\DIC\Plugintest\DICTrait;
+use srag\DIC\Plugintest\Plugin\PluginInterface;
+use srag\DIC\Plugintest\Version\PluginVersionParameter;
 
 /**
  * Class TabsInputGUI
  *
- * @package srag\CustomInputGUIs\Test\TabsInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\TabsInputGUI
  */
 class TabsInputGUI extends ilFormPropertyGUI implements ilTableFilterItem, ilToolbarItem
 {

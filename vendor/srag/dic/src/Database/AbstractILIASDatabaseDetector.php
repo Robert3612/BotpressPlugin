@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\DIC\Test\Database;
+namespace srag\DIC\Plugintest\Database;
 
 use ilDBConstants;
 use ilDBPdoInterface;
@@ -8,7 +8,7 @@ use ilDBPdoInterface;
 /**
  * Class AbstractILIASDatabaseDetector
  *
- * @package srag\DIC\Test\Database
+ * @package srag\DIC\Plugintest\Database
  */
 abstract class AbstractILIASDatabaseDetector implements DatabaseInterface
 {

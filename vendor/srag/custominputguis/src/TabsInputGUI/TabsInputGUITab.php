@@ -1,15 +1,15 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\TabsInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\TabsInputGUI;
 
 use ilFormPropertyGUI;
-use srag\CustomInputGUIs\Test\PropertyFormGUI\Items\Items;
-use srag\DIC\Test\DICTrait;
+use srag\CustomInputGUIs\Plugintest\PropertyFormGUI\Items\Items;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class TabsInputGUITab
  *
- * @package srag\CustomInputGUIs\Test\TabsInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\TabsInputGUI
  */
 class TabsInputGUITab
 {

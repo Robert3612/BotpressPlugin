@@ -1,20 +1,20 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\MultiSelectSearchNewInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\MultiSelectSearchNewInputGUI;
 
 use ilFormPropertyGUI;
 use ilTableFilterItem;
 use ilTemplate;
 use ilToolbarItem;
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\DIC\Test\DICTrait;
-use srag\DIC\Test\Plugin\PluginInterface;
-use srag\DIC\Test\Version\PluginVersionParameter;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\DIC\Plugintest\DICTrait;
+use srag\DIC\Plugintest\Plugin\PluginInterface;
+use srag\DIC\Plugintest\Version\PluginVersionParameter;
 
 /**
  * Class MultiSelectSearchNewInputGUI
  *
- * @package srag\CustomInputGUIs\Test\MultiSelectSearchNewInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\MultiSelectSearchNewInputGUI
  */
 class MultiSelectSearchNewInputGUI extends ilFormPropertyGUI implements ilTableFilterItem, ilToolbarItem
 {

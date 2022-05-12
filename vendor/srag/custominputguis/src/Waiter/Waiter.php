@@ -1,17 +1,17 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\Waiter;
+namespace srag\CustomInputGUIs\Plugintest\Waiter;
 
 use ilGlobalTemplateInterface;
 use ilTemplate;
-use srag\DIC\Test\DICTrait;
-use srag\DIC\Test\Plugin\PluginInterface;
-use srag\DIC\Test\Version\PluginVersionParameter;
+use srag\DIC\Plugintest\DICTrait;
+use srag\DIC\Plugintest\Plugin\PluginInterface;
+use srag\DIC\Plugintest\Version\PluginVersionParameter;
 
 /**
  * Class Waiter
  *
- * @package srag\CustomInputGUIs\Test\Waiter
+ * @package srag\CustomInputGUIs\Plugintest\Waiter
  */
 final class Waiter
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\DIC\Test\DIC;
+namespace srag\DIC\Plugintest\DIC;
 
 use Collator;
 use ilAccessHandler;
@@ -65,13 +65,13 @@ use ilToolbarGUI;
 use ilTree;
 use ilUIService;
 use Session;
-use srag\DIC\Test\Database\DatabaseInterface;
-use srag\DIC\Test\Exception\DICException;
+use srag\DIC\Plugintest\Database\DatabaseInterface;
+use srag\DIC\Plugintest\Exception\DICException;
 
 /**
  * Interface DICInterface
  *
- * @package srag\DIC\Test\DIC
+ * @package srag\DIC\Plugintest\DIC
  */
 interface DICInterface
 {

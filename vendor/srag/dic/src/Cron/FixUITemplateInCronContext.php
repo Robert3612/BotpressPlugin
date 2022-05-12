@@ -1,13 +1,13 @@
 <?php
 
-namespace srag\DIC\Test\Cron;
+namespace srag\DIC\Plugintest\Cron;
 
 use ilTemplate;
 
 /**
  * Trait FixUITemplateInCronContext
  *
- * @package srag\DIC\Test\Cron
+ * @package srag\DIC\Plugintest\Cron
  */
 trait FixUITemplateInCronContext
 {

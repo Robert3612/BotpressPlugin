@@ -1,17 +1,17 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\AjaxCheckbox;
+namespace srag\CustomInputGUIs\Plugintest\AjaxCheckbox;
 
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\CustomInputGUIs\Test\Waiter\Waiter;
-use srag\DIC\Test\DICTrait;
-use srag\DIC\Test\Plugin\PluginInterface;
-use srag\DIC\Test\Version\PluginVersionParameter;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\CustomInputGUIs\Plugintest\Waiter\Waiter;
+use srag\DIC\Plugintest\DICTrait;
+use srag\DIC\Plugintest\Plugin\PluginInterface;
+use srag\DIC\Plugintest\Version\PluginVersionParameter;
 
 /**
  * Class AjaxCheckbox
  *
- * @package srag\CustomInputGUIs\Test\AjaxCheckbox
+ * @package srag\CustomInputGUIs\Plugintest\AjaxCheckbox
  */
 class AjaxCheckbox
 {

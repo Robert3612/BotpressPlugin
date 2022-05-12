@@ -1,13 +1,13 @@
 <?php
 
-namespace srag\ActiveRecordConfig\Test\Config;
+namespace srag\ActiveRecordConfig\Plugintest\Config;
 
-use srag\DIC\Test\DICTrait;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class AbstractFactory
  *
- * @package srag\ActiveRecordConfig\Test\Config
+ * @package srag\ActiveRecordConfig\Plugintest\Config
  */
 abstract class AbstractFactory
 {

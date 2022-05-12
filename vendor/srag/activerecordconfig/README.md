@@ -30,8 +30,8 @@ First you need to init the active record class with your own table name and fiel
 
 ```php
 ...
-use srag\ActiveRecordConfig\Test\x\Config\AbstractFactory;
-use srag\ActiveRecordConfig\Test\x\Config\AbstractRepository;
+use srag\ActiveRecordConfig\Plugintest\x\Config\AbstractFactory;
+use srag\ActiveRecordConfig\Plugintest\x\Config\AbstractRepository;
 ...
 final class Repository extends AbstractRepository
 {
@@ -98,7 +98,7 @@ final class Repository extends AbstractRepository
 
 ```php
 ...
-use srag\ActiveRecordConfig\Test\x\Config\AbstractFactory;
+use srag\ActiveRecordConfig\Plugintest\x\Config\AbstractFactory;
 ...
 final class Factory extends AbstractFactory
 {

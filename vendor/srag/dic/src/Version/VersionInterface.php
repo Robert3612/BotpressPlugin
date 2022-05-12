@@ -1,11 +1,11 @@
 <?php
 
-namespace srag\DIC\Test\Version;
+namespace srag\DIC\Plugintest\Version;
 
 /**
  * Interface VersionInterface
  *
- * @package srag\DIC\Test\Version
+ * @package srag\DIC\Plugintest\Version
  */
 interface VersionInterface
 {

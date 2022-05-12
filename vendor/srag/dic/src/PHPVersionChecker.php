@@ -1,13 +1,13 @@
 <?php
 
-namespace srag\DIC\Test;
+namespace srag\DIC\Plugintest;
 
 use Throwable;
 
 /**
  * Class PHPVersionChecker
  *
- * @package srag\DIC\Test
+ * @package srag\DIC\Plugintest
  */
 final class PHPVersionChecker
 {

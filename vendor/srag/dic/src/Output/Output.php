@@ -1,20 +1,20 @@
 <?php
 
-namespace srag\DIC\Test\Output;
+namespace srag\DIC\Plugintest\Output;
 
 use ILIAS\UI\Component\Component;
 use ILIAS\UI\Implementation\Render\Template;
 use ilTable2GUI;
 use ilTemplate;
 use JsonSerializable;
-use srag\DIC\Test\DICTrait;
-use srag\DIC\Test\Exception\DICException;
+use srag\DIC\Plugintest\DICTrait;
+use srag\DIC\Plugintest\Exception\DICException;
 use stdClass;
 
 /**
  * Class Output
  *
- * @package srag\DIC\Test\Output
+ * @package srag\DIC\Plugintest\Output
  */
 final class Output implements OutputInterface
 {

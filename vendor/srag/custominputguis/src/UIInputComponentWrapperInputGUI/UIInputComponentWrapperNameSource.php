@@ -1,13 +1,13 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\UIInputComponentWrapperInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\UIInputComponentWrapperInputGUI;
 
 use ILIAS\UI\Implementation\Component\Input\NameSource;
 
 /**
  * Class UIInputComponentWrapperNameSource
  *
- * @package srag\CustomInputGUIs\Test\UIInputComponentWrapperInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\UIInputComponentWrapperInputGUI
  */
 class UIInputComponentWrapperNameSource implements NameSource
 {

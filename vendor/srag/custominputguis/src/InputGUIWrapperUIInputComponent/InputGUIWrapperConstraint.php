@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\InputGUIWrapperUIInputComponent;
+namespace srag\CustomInputGUIs\Plugintest\InputGUIWrapperUIInputComponent;
 
 use ILIAS\Refinery\Constraint;
 use ILIAS\Refinery\Custom\Constraint as CustomConstraint;
@@ -8,7 +8,7 @@ use ILIAS\Refinery\Custom\Constraint as CustomConstraint;
 /**
  * Class InputGUIWrapperConstraint
  *
- * @package srag\CustomInputGUIs\Test\InputGUIWrapperUIInputComponent
+ * @package srag\CustomInputGUIs\Plugintest\InputGUIWrapperUIInputComponent
  */
 class InputGUIWrapperConstraint extends CustomConstraint implements Constraint
 {

@@ -1,21 +1,21 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\MultiLineNewInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\MultiLineNewInputGUI;
 
 use ilFormPropertyGUI;
 use ilTableFilterItem;
 use ilTemplate;
 use ilToolbarItem;
-use srag\CustomInputGUIs\Test\PropertyFormGUI\Items\Items;
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\DIC\Test\DICTrait;
-use srag\DIC\Test\Plugin\PluginInterface;
-use srag\DIC\Test\Version\PluginVersionParameter;
+use srag\CustomInputGUIs\Plugintest\PropertyFormGUI\Items\Items;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\DIC\Plugintest\DICTrait;
+use srag\DIC\Plugintest\Plugin\PluginInterface;
+use srag\DIC\Plugintest\Version\PluginVersionParameter;
 
 /**
  * Class MultiLineNewInputGUI
  *
- * @package srag\CustomInputGUIs\Test\MultiLineNewInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\MultiLineNewInputGUI
  */
 class MultiLineNewInputGUI extends ilFormPropertyGUI implements ilTableFilterItem, ilToolbarItem
 {

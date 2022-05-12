@@ -1,15 +1,15 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\CheckboxInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\CheckboxInputGUI;
 
 use ilCheckboxInputGUI;
 use ilTableFilterItem;
-use srag\DIC\Test\DICTrait;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class CheckboxInputGUI
  *
- * @package srag\CustomInputGUIs\Test\CheckboxInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\CheckboxInputGUI
  */
 class CheckboxInputGUI extends ilCheckboxInputGUI implements ilTableFilterItem
 {

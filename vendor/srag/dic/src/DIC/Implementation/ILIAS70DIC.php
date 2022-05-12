@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\DIC\Test\DIC\Implementation;
+namespace srag\DIC\Plugintest\DIC\Implementation;
 
 use Collator;
 use ilAccessHandler;
@@ -65,12 +65,12 @@ use ilToolbarGUI;
 use ilTree;
 use ilUIService;
 use Session;
-use srag\DIC\Test\DIC\AbstractDIC;
+use srag\DIC\Plugintest\DIC\AbstractDIC;
 
 /**
  * Class ILIAS70DIC
  *
- * @package srag\DIC\Test\DIC\Implementation
+ * @package srag\DIC\Plugintest\DIC\Implementation
  */
 final class ILIAS70DIC extends AbstractDIC
 {

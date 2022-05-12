@@ -1,6 +1,6 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\PropertyFormGUI\Items;
+namespace srag\CustomInputGUIs\Plugintest\PropertyFormGUI\Items;
 
 use ilDateTime;
 use ilFormPropertyGUI;
@@ -11,21 +11,21 @@ use ilPropertyFormGUI;
 use ilRadioOption;
 use ilRepositorySelector2InputGUI;
 use ilUtil;
-use srag\CustomInputGUIs\Test\HiddenInputGUI\HiddenInputGUI;
-use srag\CustomInputGUIs\Test\PropertyFormGUI\Exception\PropertyFormGUIException;
-use srag\CustomInputGUIs\Test\PropertyFormGUI\PropertyFormGUI;
-use srag\CustomInputGUIs\Test\TableGUI\TableGUI;
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\CustomInputGUIs\Test\UIInputComponentWrapperInputGUI\UIInputComponentWrapperInputGUI;
-use srag\DIC\Test\DICTrait;
-use srag\DIC\Test\Plugin\PluginInterface;
-use srag\DIC\Test\Version\PluginVersionParameter;
+use srag\CustomInputGUIs\Plugintest\HiddenInputGUI\HiddenInputGUI;
+use srag\CustomInputGUIs\Plugintest\PropertyFormGUI\Exception\PropertyFormGUIException;
+use srag\CustomInputGUIs\Plugintest\PropertyFormGUI\PropertyFormGUI;
+use srag\CustomInputGUIs\Plugintest\TableGUI\TableGUI;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\CustomInputGUIs\Plugintest\UIInputComponentWrapperInputGUI\UIInputComponentWrapperInputGUI;
+use srag\DIC\Plugintest\DICTrait;
+use srag\DIC\Plugintest\Plugin\PluginInterface;
+use srag\DIC\Plugintest\Version\PluginVersionParameter;
 use TypeError;
 
 /**
  * Class Items
  *
- * @package srag\CustomInputGUIs\Test\PropertyFormGUI\Items
+ * @package srag\CustomInputGUIs\Plugintest\PropertyFormGUI\Items
  *
  * @access  namespace
  */

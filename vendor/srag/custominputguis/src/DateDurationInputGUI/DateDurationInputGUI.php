@@ -1,16 +1,16 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\DateDurationInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\DateDurationInputGUI;
 
 use ilCalendarUtil;
 use ilDateDurationInputGUI;
 use ilDateTime;
-use srag\DIC\Test\DICTrait;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class DateDurationInputGUI
  *
- * @package srag\CustomInputGUIs\Test\DateDurationInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\DateDurationInputGUI
  */
 class DateDurationInputGUI extends ilDateDurationInputGUI
 {

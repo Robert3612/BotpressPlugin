@@ -1,15 +1,15 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\ColorPickerInputGUI;
+namespace srag\CustomInputGUIs\Plugintest\ColorPickerInputGUI;
 
 use ilColorPickerInputGUI;
-use srag\CustomInputGUIs\Test\Template\Template;
-use srag\DIC\Test\DICTrait;
+use srag\CustomInputGUIs\Plugintest\Template\Template;
+use srag\DIC\Plugintest\DICTrait;
 
 /**
  * Class ColorPickerInputGUI
  *
- * @package srag\CustomInputGUIs\Test\ColorPickerInputGUI
+ * @package srag\CustomInputGUIs\Plugintest\ColorPickerInputGUI
  */
 class ColorPickerInputGUI extends ilColorPickerInputGUI
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test;
+namespace srag\CustomInputGUIs\Plugintest;
 
 /**
  * Trait CustomInputGUIsTrait
  *
- * @package srag\CustomInputGUIs\Test
+ * @package srag\CustomInputGUIs\Plugintest
  */
 trait CustomInputGUIsTrait
 {

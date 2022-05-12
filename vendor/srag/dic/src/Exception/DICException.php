@@ -1,13 +1,13 @@
 <?php
 
-namespace srag\DIC\Test\Exception;
+namespace srag\DIC\Plugintest\Exception;
 
 use ilException;
 
 /**
  * Class DICException
  *
- * @package srag\DIC\Test\Exception
+ * @package srag\DIC\Plugintest\Exception
  */
 final class DICException extends ilException
 {

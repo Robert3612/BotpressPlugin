@@ -1,13 +1,13 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\Template;
+namespace srag\CustomInputGUIs\Plugintest\Template;
 
 use ilTemplate;
 
 /**
  * Class Template
  *
- * @package srag\CustomInputGUIs\Test\Template
+ * @package srag\CustomInputGUIs\Plugintest\Template
  */
 class Template extends ilTemplate
 {

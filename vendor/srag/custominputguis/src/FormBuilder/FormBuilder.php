@@ -1,13 +1,13 @@
 <?php
 
-namespace srag\CustomInputGUIs\Test\FormBuilder;
+namespace srag\CustomInputGUIs\Plugintest\FormBuilder;
 
 use ILIAS\UI\Component\Input\Container\Form\Form;
 
 /**
  * Interface FormBuilder
  *
- * @package srag\CustomInputGUIs\Test\FormBuilder
+ * @package srag\CustomInputGUIs\Plugintest\FormBuilder
  */
 interface FormBuilder
 {

@@ -1,4 +1,4 @@
 <#1>
 <?php
-\srag\Plugins\Test\Repository::getInstance()->installTables();
+\srag\Plugins\Plugintest\Repository::getInstance()->installTables();
 ?>
