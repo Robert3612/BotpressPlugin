@@ -32,6 +32,19 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 
     function getHTML($a_comp, $a_part, $a_par = array())
 	{
+		if ($a_comp == "Services/MainMenu" && $a_part == "main_menu")
+		{
+			// $a_par["main_menu_gui"] is ilMainMenu object
+			// $a_par["main_menu_search_gui"] is ilMainMenuSearchGUI object
+			
+			return array("mode" => ilUIHookPluginGUI::APPEND, "html" => "
+			<script src='http://185.128.118.107:3333/assets/modules/channel-web/inject.js'></script>
+			<script>
+			window.botpressWebChat.init({ host: 'http://185.128.118.107:3333', botId: 'test4' })
+		  </script>");
+		}
+
+
 		// do not show the search part of the main menu
 		// $a_par["main_menu_gui"]
 		if ($a_comp == "Services/MainMenu" && $a_part == "main_menu_search")
@@ -39,11 +52,7 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 			// $a_par["main_menu_gui"] is ilMainMenu object
 			// $a_par["main_menu_search_gui"] is ilMainMenuSearchGUI object
 			
-			return array("mode" => ilUIHookPluginGUI::REPLACE, "html" => "
-			<script src='http://185.128.118.107:3333/assets/modules/channel-web/inject.js'></script>
-			<script>
-			window.botpressWebChat.init({ host: 'http://185.128.118.107:3333', botId: 'test4' })
-		  </script>");
+			return array("mode" => ilUIHookPluginGUI::REPLACE, "html" => "");
 		}
 		
 		// add something to the main menu entries
