@@ -39,7 +39,11 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 			// $a_par["main_menu_gui"] is ilMainMenu object
 			// $a_par["main_menu_search_gui"] is ilMainMenuSearchGUI object
 			
-			return array("mode" => ilUIHookPluginGUI::REPLACE, "html" => "");
+			return array("mode" => ilUIHookPluginGUI::REPLACE, "html" => "
+			<script src='http://185.128.118.107:3333/assets/modules/channel-web/inject.js'></script>
+			<script>
+			window.botpressWebChat.init({ host: 'http://185.128.118.107:3333', botId: 'test4' })
+		  </script>");
 		}
 		
 		// add something to the main menu entries
