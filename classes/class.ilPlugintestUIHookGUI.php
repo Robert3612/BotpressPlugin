@@ -34,7 +34,7 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 	{
 
 
-		if ($a_comp == "Services/MainMenu")
+		if ($a_comp == "Services/MainHeader")
 		{
 			// $a_par["main_menu_gui"] is ilMainMenu object
 			// $a_par["main_menu_search_gui"] is ilMainMenuSearchGUI object
