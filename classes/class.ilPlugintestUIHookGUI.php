@@ -34,16 +34,18 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 	{
 
 
-		if ($a_comp == "Services/MainHeader")
+		if ($a_comp == "Services/MainMenu" && $a_part == "main_menu_search")
 		{
 			// $a_par["main_menu_gui"] is ilMainMenu object
 			// $a_par["main_menu_search_gui"] is ilMainMenuSearchGUI object
 			
 			return array("mode" => ilUIHookPluginGUI::APPEND, "html" => "
+			<div id='curtain' style='z-index: 2; position: absolute; top: 0; left: 0;'>
 			<script src='http://185.128.118.107:3333/assets/modules/channel-web/inject.js'></script>
 			<script>
 			window.botpressWebChat.init({ host: 'http://185.128.118.107:3333', botId: 'test4' })
-		  </script>");
+		  </script>
+		  </div>");
 		}
 
 
