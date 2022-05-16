@@ -41,7 +41,7 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
     function getHTML($a_comp, $a_part, $a_par = array())
 	{
 
-		debug_to_console($a_part);
+		debug_to_console("test");
 		if ($a_comp == "Services/MainMenu" && $a_part == "main_header")
 		{
 			// $a_par["main_menu_gui"] is ilMainMenu object
