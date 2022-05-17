@@ -49,7 +49,7 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 
 			width: 100%;
 
-			height :50%;
+			height :100px;
 
 			}			
 		  </div>");
