@@ -34,25 +34,13 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 	{
 
 
-		if ($a_comp == "Services/MainMenu" && $a_part == "main_menu_search"){
-			return array("mode" => ilUIHookPluginGUI::APPEND, "html" => "
-			<div class ='pagewrapper'>
-
-			<body>
+		if ($a_part == "template_get" && $a_par['tpl_id']=="src/UI/templates/default/MainControls/tpl.metabar.html"){
+			return array("mode" => ilUIHookPluginGUI::PREPEND, "html" => "
 			<script src='http://185.128.118.107:3333/assets/modules/channel-web/inject.js'></script>
 			<script>
 			window.botpressWebChat.init({ host: 'http://185.128.118.107:3333', botId: 'test4' })
 		  </script>
-		  </body>
-
-			.pagewrapper{
-
-			width: 100%;
-
-			height :100px;
-
-			}			
-		  </div>");
+		  ");
 		}
 		//echo "<script>console.log('Debug Objects: " . $a_part . "' );</script>";
 		if ($a_comp == "Services/MainMenu" && $a_part == "main_menu_search")
