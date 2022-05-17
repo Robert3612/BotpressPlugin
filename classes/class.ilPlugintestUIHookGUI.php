@@ -33,12 +33,8 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
     function getHTML($a_comp, $a_part, $a_par = array())
 	{
 
-		//echo "<script>console.log('Debug Objects: " . $a_part . "' );</script>";
-		if ($a_comp == "Services/MainMenu" )
-		{
-			// $a_par["main_menu_gui"] is ilMainMenu object
-			// $a_par["main_menu_search_gui"] is ilMainMenuSearchGUI object
-			
+
+		if ($a_part == "template_get" && $a_par['tpl_id']=="src/UI/templates/default/MainControls/tpl.metabar.html"){
 			return array("mode" => ilUIHookPluginGUI::APPEND, "html" => "
 			<div id='curtain' style='z-index: 3; position: absolute; top: 0; left: 0;'>
 			<script src='http://185.128.118.107:3333/assets/modules/channel-web/inject.js'></script>
@@ -46,6 +42,14 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 			window.botpressWebChat.init({ host: 'http://185.128.118.107:3333', botId: 'test4' })
 		  </script>
 		  </div>");
+		}
+		//echo "<script>console.log('Debug Objects: " . $a_part . "' );</script>";
+		if ($a_comp == "Services/MainMenu" && $a_part == "main_menu_search")
+		{
+			// $a_par["main_menu_gui"] is ilMainMenu object
+			// $a_par["main_menu_search_gui"] is ilMainMenuSearchGUI object
+			
+			return array("mode" => ilUIHookPluginGUI::APPEND, "html" => "");
 		}
 
 
