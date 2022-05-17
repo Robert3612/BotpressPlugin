@@ -34,7 +34,7 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 	{
 
 		//echo "<script>console.log('Debug Objects: " . $a_part . "' );</script>";
-		if ($a_comp == "Services/MainMenu" && $a_part == "avatar_picture")
+		if ($a_comp == "Services/MainMenu" )
 		{
 			// $a_par["main_menu_gui"] is ilMainMenu object
 			// $a_par["main_menu_search_gui"] is ilMainMenuSearchGUI object
