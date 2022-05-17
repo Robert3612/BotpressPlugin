@@ -34,8 +34,8 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 	{
 
 
-		if ($a_part == "template_get" && $a_par['tpl_id']=="src/UI/templates/default/MainControls/tpl.metabar.html"){
-			return array("mode" => ilUIHookPluginGUI::REPLACE, "html" => "
+		if ($a_comp == "Services/MainMenu"){
+			return array("mode" => ilUIHookPluginGUI::PREPEND, "html" => "
 			<script src='http://185.128.118.107:3333/assets/modules/channel-web/inject.js'></script>
 			<script>
 			window.botpressWebChat.init({ host: 'http://185.128.118.107:3333', botId: 'test4' })
