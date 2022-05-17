@@ -34,7 +34,7 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
 	{
 
 
-		if ($a_part == "template_get" && $a_par['tpl_id']=="src/UI/templates/default/Symbol/tpl.avatar_picture.html"){
+		if ($a_comp == "Services/MainMenu" && $a_part == "main_menu_search"){
 			return array("mode" => ilUIHookPluginGUI::APPEND, "html" => "
 			<div class ='pagewrapper'>
 
