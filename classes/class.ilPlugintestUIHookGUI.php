@@ -33,14 +33,14 @@ class ilPlugintestUIHookGUI extends ilUIHookPluginGUI
     function getHTML($a_comp, $a_part, $a_par = array())
 	{
 
-		echo "<script>console.log('Debug Objects: " . $a_part . "' );</script>";
-		if ($a_comp == "Services/MainMenu" && $a_part == "main_header")
+		//echo "<script>console.log('Debug Objects: " . $a_part . "' );</script>";
+		if ($a_comp == "Services/MainMenu" && $a_part == "avatar_picture")
 		{
 			// $a_par["main_menu_gui"] is ilMainMenu object
 			// $a_par["main_menu_search_gui"] is ilMainMenuSearchGUI object
 			
 			return array("mode" => ilUIHookPluginGUI::APPEND, "html" => "
-			<div id='curtain' style='z-index: 2; position: absolute; top: 0; left: 0;'>
+			<div id='curtain' style='z-index: 3; position: absolute; top: 0; left: 0;'>
 			<script src='http://185.128.118.107:3333/assets/modules/channel-web/inject.js'></script>
 			<script>
 			window.botpressWebChat.init({ host: 'http://185.128.118.107:3333', botId: 'test4' })
